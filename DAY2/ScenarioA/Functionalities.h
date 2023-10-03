@@ -16,4 +16,5 @@ void CreateObjects(Vehicle* container[3]);
 // Function to find average of price values of 3 objects in the container array
 float AveragePrice(Vehicle* container[3]);
 
+
 #endif // FUNCTIONALITIES_H
