@@ -22,7 +22,7 @@ Create a class Vehicle with the following attributes
 
 - create a class Car with the  following attributes
 - _type which could be SEDAN, SUV, HATCHBACK
-- calculateTax whose implementation is "return 10 price of the car%
+- calculateTax whose implementation is "return 10% price of the car
 
 - a function to create the 3 objects on the heap
  
