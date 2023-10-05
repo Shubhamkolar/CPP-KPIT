@@ -3,7 +3,6 @@
     int &ptr // left side of & has a data type (reference)
 
     &ptr; // no type to the left of & (pointer)
-
 */
 
 // call by value: copy passed parameter into formal parameter
@@ -14,6 +13,7 @@
 //     data = 100;
 //     std::cout << "after modification, data is: " << data << "\n";
 //  }
+
 
 // ------------CALL BY REFERNCE-------------
 void magic(int& data){  // Here data is refering to n1 so updated data will be reflected to both.
@@ -32,3 +32,4 @@ void magic(int& data){  // Here data is refering to n1 so updated data will be r
     std::cout << "Value in main after calling magic: " << &n1 << "\n";
 
  }
+ 
